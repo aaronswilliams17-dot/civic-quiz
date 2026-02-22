@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "category": "Founding Documents",
+    "difficulty": "easy",
+    "question": "What is the supreme law of the land?",
+    "choices": ["The Declaration of Independence", "The Constitution", "The Bill of Rights", "The Articles of Confederation"],
+    "correctIndex": 1,
+    "hint": "This document was signed in 1787 at the Constitutional Convention in Philadelphia.",
+    "funFact": "The U.S. Constitution is the oldest written national constitution still in use. It was signed on September 17, 1787, and has been amended only 27 times.",
+    "source": "National Archives — The Constitution"
+  },
+  {
+    "id": 2,
+    "category": "Rights & Freedoms",
+    "difficulty": "easy",
+    "question": "What do we call the first ten amendments to the Constitution?",
+    "choices": ["The Preamble", "The Bill of Rights", "The Articles of Confederation", "The Federalist Papers"],
+    "correctIndex": 1,
+    "hint": "James Madison is often called the 'Father' of these amendments, ratified in 1791.",
+    "funFact": "Originally, twelve amendments were proposed. The first two were not ratified at that time — one of them was eventually ratified in 1992 as the 27th Amendment!",
+    "source": "National Archives — Bill of Rights"
+  },
+  {
+    "id": 3,
+    "category": "Government Structure",
+    "difficulty": "easy",
+    "question": "How many branches does the U.S. government have?",
+    "choices": ["Two", "Three", "Four", "Five"],
+    "correctIndex": 1,
+    "hint": "Think about who makes the laws, who enforces them, and who interprets them.",
+    "funFact": "The Founders created three branches — Legislative, Executive, and Judicial — as a system of 'checks and balances' so no single branch could become too powerful.",
+    "source": "National Archives — The Constitution, Articles I–III"
+  },
+  {
+    "id": 4,
+    "category": "Rights & Freedoms",
+    "difficulty": "medium",
+    "question": "What are two rights listed in the Declaration of Independence?",
+    "choices": ["Life and liberty", "Right to bear arms and free speech", "Right to vote and trial by jury", "Freedom of religion and right to petition"],
+    "correctIndex": 0,
+    "hint": "Thomas Jefferson wrote about 'unalienable Rights' — think of the famous phrase that follows.",
+    "funFact": "Jefferson's original draft included a passage condemning the slave trade, but it was removed by the Continental Congress before the final vote on July 4, 1776.",
+    "source": "National Archives — Declaration of Independence"
+  },
+  {
+    "id": 5,
+    "category": "Government Structure",
+    "difficulty": "medium",
+    "question": "How many U.S. Senators are there?",
+    "choices": ["50", "100", "435", "538"],
+    "correctIndex": 1,
+    "hint": "Each state has equal representation in the Senate regardless of population.",
+    "funFact": "Until the 17th Amendment was ratified in 1913, Senators were chosen by state legislatures — not by popular vote of the people.",
+    "source": "National Archives — The Constitution, Article I"
+  },
+  {
+    "id": 6,
+    "category": "U.S. History",
+    "difficulty": "medium",
+    "question": "What territory did the United States purchase from France in 1803?",
+    "choices": ["Alaska", "Florida", "The Louisiana Territory", "Texas"],
+    "correctIndex": 2,
+    "hint": "President Thomas Jefferson authorized this purchase, which doubled the size of the nation.",
+    "funFact": "The Louisiana Purchase cost about $15 million — roughly 4 cents per acre. Today that land includes all or part of 15 U.S. states.",
+    "source": "National Archives — Louisiana Purchase Treaty"
+  },
+  {
+    "id": 7,
+    "category": "Founding Documents",
+    "difficulty": "medium",
+    "question": "What does the Preamble to the Constitution begin with?",
+    "choices": ["\"In God We Trust\"", "\"When in the Course of human events\"", "\"We the People\"", "\"Four score and seven years ago\""],
+    "correctIndex": 2,
+    "hint": "These three words emphasize that the government's power comes from its citizens.",
+    "funFact": "Gouverneur Morris, a delegate from Pennsylvania, is credited with writing the final draft of the Preamble. The famous opening phrase established popular sovereignty as a core principle.",
+    "source": "National Archives — The Constitution, Preamble"
+  },
+  {
+    "id": 8,
+    "category": "U.S. History",
+    "difficulty": "hard",
+    "question": "What amendment abolished slavery in the United States?",
+    "choices": ["The 10th Amendment", "The 13th Amendment", "The 15th Amendment", "The 19th Amendment"],
+    "correctIndex": 1,
+    "hint": "It was ratified in 1865, shortly after the end of the Civil War.",
+    "funFact": "Mississippi was the last state to officially ratify the 13th Amendment — not until 1995, and it wasn't formally certified until 2013, almost 150 years after its adoption.",
+    "source": "National Archives — 13th Amendment"
+  },
+  {
+    "id": 9,
+    "category": "Government Structure",
+    "difficulty": "hard",
+    "question": "If both the President and Vice President can no longer serve, who becomes President?",
+    "choices": ["The Secretary of State", "The Chief Justice", "The Speaker of the House", "The President Pro Tempore of the Senate"],
+    "correctIndex": 2,
+    "hint": "This person leads the lower chamber of Congress.",
+    "funFact": "The Presidential Succession Act of 1947 established the current order. The Speaker of the House is third in line, followed by the President Pro Tempore of the Senate.",
+    "source": "National Archives — The Constitution, Article II & Presidential Succession Act"
+  },
+  {
+    "id": 10,
+    "category": "Rights & Freedoms",
+    "difficulty": "hard",
+    "question": "Which amendment guarantees the right of women to vote?",
+    "choices": ["The 15th Amendment", "The 17th Amendment", "The 19th Amendment", "The 26th Amendment"],
+    "correctIndex": 2,
+    "hint": "This amendment was ratified in 1920, after decades of the women's suffrage movement.",
+    "funFact": "Tennessee's ratification of the 19th Amendment on August 18, 1920, came down to a single vote. 24-year-old legislator Harry Burn changed his vote to 'yes' after receiving a letter from his mother urging him to support suffrage.",
+    "source": "National Archives — 19th Amendment"
+  }
+]
