@@ -1,73 +1,42 @@
-# Welcome to your Lovable project
 
-## Project info
+📜 U.S. Constitution & Civics Daily Quiz
+The Vision
+This project was developed as a companion solution to citizenconstitutionproject.org. It stems from the observation that many Americans lack foundational knowledge about our Constitution and the founding of our country.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+By providing a low-friction, high-engagement way to learn, this app aims to foster a more informed citizenry—people equipped to make decisions based on knowledge and historical fact rather than presumptions.
 
-## How can I edit this code?
+🚀 Project Overview
+A mobile-responsive, rapid-prototype application designed to gamify civic education. This app was built using an Iterative AI-Assisted Development workflow, moving from high-level conceptual requirements to functional logic and UI refinement.
 
-There are several ways of editing your application.
+🛠️ The "Product Specification" (Prompts)
+To build this "digital chassis," I acted as the Product Lead, directing the AI through three stages of development:
 
-**Use Lovable**
+Stage 1: Foundation & Aesthetic
+Prompt 1: Build a mobile-friendly app that gives a daily quiz about the U.S. Constitution, U.S. civics, and U.S. history. It should have a progress bar that will keep their place even if they refresh the page, multiple-choice buttons, and a "fun fact" pop-up when you get the answer correct. For the multiple choice answers, use roman numerals to number them. Make the background look like parchment paper and use an older-looking font style that is easy to read, making sure that it has a good contrast from the background that will be easy to read even on a mobile device, perhaps "Georgia". Give a "hint" drop down button with a hint for each question. Give 10 sample questions pulling from the official U.S. Citizenship (civics) Test. Use the National Archives "Founding Documents" as the primary source. Store the questions in a JSON file so that they can be changed more easily later. Make the questions range from easy to difficult and give an immediate green check or red "X" indicating if they answered correctly or not. After the quiz, show a score sheet with the number they got correct and where their strengths/weaknesses are and suggest resources they can use to learn more.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Stage 2: Logic Diagnostics
+Prompt 2: ok. This looks good, but it does not show a fun fact with the selection of the correct answer and also after the first question, a wrong answer and the correct answer are already selected. it needs to reset every time.
 
-Changes made via Lovable will be committed automatically to this repo.
+Stage 3: UX Refinement
+Prompt 3: ok. can you have the fun fact come up whenever the correct answer is given also. For instance, when I choose the wrong answer and the correct answer is shown, give the fact then, too.
 
-**Use your preferred IDE**
+✨ Key Technical Features
+State Management: Tracks user progress and score, with persistence via localStorage (refresh-safe).
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Educational Design: Questions pulled from the official U.S. Citizenship (Civics) Test and vetted against National Archives data.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Accessible UI: High-contrast "Georgia" serif typography on a parchment aesthetic for historical feel without sacrificing mobile readability.
 
-Follow these steps:
+JSON Integration: Decoupled content from code, allowing for easy updates to the question bank.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🔧 Tech Stack
+Platform: Lovable / v0
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Framework: React / Tailwind CSS
 
-# Step 3: Install the necessary dependencies.
-npm i
+Version Control: GitHub
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Deployment: [Link your Netlify/Vercel/Lovable link here]
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Why this matters
+A healthy republic requires an informed public. This prototype demonstrates how modern technology can be used to bridge the gap between historical documents and daily digital habits.
