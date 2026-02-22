@@ -69,7 +69,7 @@ const Index = () => {
           <ProgressBar current={state.completed ? questions.length : state.currentIndex} total={questions.length} />
 
           {!state.completed ? (
-            <QuizCard question={questions[state.currentIndex]} onAnswer={handleAnswer} />
+            <QuizCard key={state.currentIndex} question={questions[state.currentIndex]} onAnswer={handleAnswer} />
           ) : (
             <ScoreSheet results={state.results} onRestart={handleRestart} />
           )}
