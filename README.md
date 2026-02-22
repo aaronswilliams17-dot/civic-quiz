@@ -8,10 +8,10 @@ By providing a low-friction, high-engagement way to learn, this app aims to fost
 
 ---
 
-### **🚀 Project Overview**
+### ** Project Overview**
 A mobile-responsive, rapid-prototype application designed to gamify civic education. This app was built using an **Iterative AI-Assisted Development** workflow, moving from high-level conceptual requirements to functional logic and UI refinement.
 
-### **🛠️ The Build Process (Iterative Prompts)**
+### ** The Build Process (Iterative Prompts)**
 To ensure the AI built a high-quality "chassis," I acted as the Product Lead, directing the AI through three stages of development:
 
 **Stage 1: Foundation & Aesthetic**
@@ -25,13 +25,13 @@ To ensure the AI built a high-quality "chassis," I acted as the Product Lead, di
 
 ---
 
-### **✨ Key Technical Features**
+### ** Key Technical Features**
 * **State Management:** Tracks user progress and score with persistence via `localStorage` (refresh-safe).
 * **Educational Design:** Questions pulled from the official U.S. Citizenship (Civics) Test and vetted against National Archives data.
 * **Accessible UI:** High-contrast "Georgia" serif typography on a parchment aesthetic for historical feel without sacrificing mobile readability.
 * **JSON Integration:** Decoupled content from code, allowing for easy updates to the question bank.
 
-### **🔧 Tech Stack**
+### ** Tech Stack**
 * **Build Tool:** Lovable / v0
 * **Framework:** React / Tailwind CSS
 * **Version Control:** GitHub
