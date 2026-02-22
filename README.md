@@ -35,4 +35,4 @@ To ensure the AI built a high-quality "chassis," I acted as the Product Lead, di
 * **Build Tool:** Lovable / v0
 * **Framework:** React / Tailwind CSS
 * **Version Control:** GitHub
-* **Live Deployment:** [INSERT YOUR LIVE LINK HERE]
+* **Live Deployment:** [civics-quiz.lovable.app]
