@@ -37,9 +37,7 @@ const QuizCard = ({ question, onAnswer }: QuizCardProps) => {
   const handleSelect = (index: number) => {
     if (answered) return;
     setSelected(index);
-    if (index === question.correctIndex) {
-      setShowFunFact(true);
-    }
+    setShowFunFact(true);
   };
 
   const handleNext = () => {
